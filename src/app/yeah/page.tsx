@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bearKiss from "/bear-kiss-bear-kisses.gif"
+import bearKiss from "./bear-kiss-bear-kisses.gif"
 
 export default function Yeah() {
     return (

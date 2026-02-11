@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import bearImage from "/Bear.gif"
+import bearImage from "./Bear.gif"
 
 export default function Main() {
     const router = useRouter();
