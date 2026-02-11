@@ -1,10 +1,11 @@
 import Image from "next/image";
+import bearKiss from "/bear-kiss-bear-kisses.gif"
 
 export default function Yeah() {
     return (
         <div className="yeah">
             <Image
-                src="/bear-kiss-bear-kisses.gif"
+                src={bearKiss}
                 alt="image"
                 width={236}
                 height={233}

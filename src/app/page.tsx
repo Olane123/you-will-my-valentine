@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import bearImage from "/Bear.gif"
 
 export default function Main() {
     const router = useRouter();
@@ -20,7 +21,7 @@ export default function Main() {
         <>
             <header>
                 <Image
-                    src="/Bear.gif"
+                    src={bearImage}
                     alt="image"
                     width={247}
                     height={200}
