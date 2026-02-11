@@ -36,14 +36,14 @@ export default function Main() {
                     onClick={handleYesClick}
                     style={{ transform: `scale(${scale})` }}
                 >
-                    Yes
+                    Да
                 </button>
                 <button
                     type="submit"
                     id="button__no"
                     onClick={handleNoClick}
                 >
-                    No
+                    Нет
                 </button>
             </div>
         </>
